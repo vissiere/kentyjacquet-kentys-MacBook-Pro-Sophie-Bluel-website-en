@@ -1,8 +1,5 @@
-# Portfolio-architecte-sophie-bluel
+##Instructions to Run the Code
 
-Code du projet 6 d'intégrateur web.
+Start the backend from your terminal by following the instructions in the README file.
 
-## Information pour le lancer le code
-
- - Lancer le backend depuis votre terminal en suivant les instruction du fichier ReadMe.
- - Si vous désirez afficher le code du backend et du frontend, faites le dans 2 instances de VSCode différentes pour éviter tout problème
+If you wish to view the backend and frontend code, open them in two separate instances of VSCode to avoid any issues.
