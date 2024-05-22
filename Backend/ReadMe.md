@@ -1,21 +1,20 @@
 # Backend API - Sophie Bluel
 
-Ce repo contient le code backend de l'architecte Sophie Bluel. 
+This repository contains backend code from architect Sophie Bluel.
 
-## Lancement du backend
+## Backend launch
 
-Après avoir récupéré le REPO executez la commande `npm install` pour installer les dépendances du projet
+After retrieving the REPO run the `npm install` command to install the project dependencies
 
-Une fois les dépendances installées lancez le projet avec la commande `npm start`
+Once the dependencies are installed, launch the project with the `npm start` command
 
-Compte de test pour Sophie Bluel
-
+Test account for Sophie Bluel
 ```
 email: sophie.bluel@test.tld
 
 password: S0phie 
 ```
-Lien pour voir la
-[documentation Swagger](http://localhost:5678/api-docs/)
+Link to see the
+[Swagger documentation ](http://localhost:5678/api-docs/)
 
-Pour lire la documentation, utiliser Chrome ou Firefox
+To read the documentation, use Chrome or Firefox
