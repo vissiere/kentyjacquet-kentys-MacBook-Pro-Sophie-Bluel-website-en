@@ -12,11 +12,11 @@ window.addEventListener("load", async (event) => {
       gallery.innerHTML = data.map((work, index) => {
         return `
        <figure>
-        <img class="gallery-image" alt="${work.title}" src=${work.imageUrl}/>
+        <img class="gallery-image" alt="${work.title}" src="${work.imageUrl}"/>
         <figcaption>${work.title}</figcaption>
        </figure>
        `;
-      });
+      }).join("");
     });
   console.log("page is fully loaded");
 });
@@ -67,5 +67,3 @@ document.querySelector(".open-modal").addEventListener("click", () => {
 document.querySelector(".close-modal").addEventListener("click", () => {
   document.querySelector(".modal").classList.remove("show");
 });
-
-
