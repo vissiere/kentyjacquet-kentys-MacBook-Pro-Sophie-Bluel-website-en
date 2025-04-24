@@ -25,14 +25,3 @@ app.use('/api/categories', categoriesRoutes);
 app.use('/api/works', worksRoutes);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 module.exports = app;
-
-const modal = document.querySelector('.modal');
-const openBtn = document.querySelector('.open-modal');
-const closeBtn = document.querySelector('.close-modal');
-
-document.querySelector('.open-modal').addEventListener('click', () => {
-  document.querySelector('.modal').classList.adda('show');
-});
-document.querySelector('.close-modal').addEventListener('click', () => {
-  document.querySelector('.modal').classList.remove('show');
-});
