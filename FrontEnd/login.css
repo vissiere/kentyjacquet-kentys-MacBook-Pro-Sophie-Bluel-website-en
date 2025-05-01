@@ -38,13 +38,19 @@ body {
     padding: auto;
 }
 
-.login-form {
-    padding: 20px;
+.instagram-icon {
+    width: 19px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+#login-form {
     border-radius: 10px;
-    width: 300px;
+    width: 379px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
 }
 
 .login-form-container h2 {
@@ -63,12 +69,13 @@ body {
 }
 
 .form-group input {
-    width: 100%;
-    padding: 8px;
+    width: 379px;
+    height: 51px;
     border: 1px solid #fcf4f4;
     border-radius: 5px; 
     color: #666;
-    background-color: #fff;  
+    background-color: #fff; 
+
 }
 
 .btn-container {
